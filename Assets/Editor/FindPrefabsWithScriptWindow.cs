@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 
-public class FindPrefabWithScriptWindow : EditorWindow
+public class FindPrefabsWithScriptWindow : EditorWindow
 {
     private MonoScript script;
     private bool searchInChildren = true;
@@ -12,7 +12,7 @@ public class FindPrefabWithScriptWindow : EditorWindow
     [MenuItem("Custom Tools/Find Prefabs with Script")]
     public static void ShowWindow()
     {
-        GetWindow<FindPrefabWithScriptWindow>("Find Prefabs with Script");
+        GetWindow<FindPrefabsWithScriptWindow>("Find Prefabs with Script");
     }
 
     private void OnGUI()
