@@ -53,7 +53,7 @@ public class FindPrefabWithScriptWindow : EditorWindow
             string assetPath = AssetDatabase.GUIDToAssetPath(path);
             GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
 
-            if (PrefabUtility.GetPrefabType(prefab) == PrefabType.Prefab)
+            if (PrefabUtility.IsPartOfPrefabAsset(prefab))
             {
                 if (searchInChildren)
                 {
