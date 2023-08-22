@@ -16,7 +16,7 @@ This project was created using Unity 2021.3.15f1 LTS.
    - Search in children (optional): Toggle the "Search In Children" option to include child objects in the search.
    - Find: Click the "Find" button to initiate the search.
 
-5. The tool will display a list of prefabs that contain the specified script.<br />
+5. The tool will display a list of prefabs that containing a specific script or scripts derived from it.<br />
 ![1](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/df9401ca-f077-484a-9bdf-07841185a890)
 ![2](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/cc3777ea-c74c-4fe8-a8f3-6dc993feb0a9)
 ![3](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/f03b4132-8d4b-4e74-86ca-c3d68ddb245e)
