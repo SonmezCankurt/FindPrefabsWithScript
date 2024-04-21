@@ -22,6 +22,8 @@ This project was created using Unity 2021.3.15f1 LTS.
 ![3](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/f03b4132-8d4b-4e74-86ca-c3d68ddb245e)
 ![4](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/68771b09-612c-4b0f-940f-9496ec930b23)
 
+   ### Video
+      You can also check the example [Usage Video](https://youtu.be/spMB9BSAvOw) if you like.
 
 ## Features
 
