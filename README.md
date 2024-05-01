@@ -6,7 +6,16 @@ The "Find Prefabs with Script" tool is a custom utility for Unity Editor that en
 
 This project was created using Unity 2021.3.15f1 LTS.
 
+## Export Package
+
+1. Open the Unity Editor.
+2. Go to the "Assets" menu in the top menu bar.
+3. Select the "Export Package" option.
+4. In the opened window, deselect all and only select the FindPrefabsWithScript.cs file inside the Editor folder.
+5. After making the selection, clicking the "Export" button will create an export package containing only this file.
+   
 ## Usage
+
 1. Open Unity Editor.
 2. Navigate to the "Custom Tools" menu.<>
 3. Select "Find Prefabs with Script" to open the tool's window.
@@ -17,13 +26,17 @@ This project was created using Unity 2021.3.15f1 LTS.
    - Find: Click the "Find" button to initiate the search.
 
 5. The tool will display a list of prefabs that containing a specific script or scripts derived from it.<br />
+
 ![1](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/df9401ca-f077-484a-9bdf-07841185a890)
 ![2](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/cc3777ea-c74c-4fe8-a8f3-6dc993feb0a9)
 ![3](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/f03b4132-8d4b-4e74-86ca-c3d68ddb245e)
 ![4](https://github.com/SonmezCankurt/FindPrefabsWithScript/assets/24636097/68771b09-612c-4b0f-940f-9496ec930b23)
 
    ### Video
-      You can also check the example [Usage Video](https://youtu.be/spMB9BSAvOw) if you like.
+   
+   You can also check the example [Usage Video](https://youtu.be/spMB9BSAvOw) if you like.
+
+   [![Video](http://img.youtube.com/vi/spMB9BSAvOw/0.jpg)](https://youtu.be/spMB9BSAvOw)
 
 ## Features
 
