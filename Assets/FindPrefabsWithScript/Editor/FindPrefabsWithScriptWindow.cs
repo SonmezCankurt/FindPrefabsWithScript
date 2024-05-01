@@ -20,6 +20,21 @@ public class FindPrefabsWithScriptWindow : EditorWindow
         GUILayout.Label("Find Prefabs with Script", EditorStyles.boldLabel);
 
         script = EditorGUILayout.ObjectField("Script", script, typeof(MonoScript), false) as MonoScript;
+        if (script != null)
+        {
+            if (script.GetClass() == null)
+            {
+                EditorGUILayout.HelpBox("Please select a valid script.", MessageType.Error);
+                prefabsWithScript.Clear();
+                return;
+            }
+            else if (!script.GetClass().IsSubclassOf(typeof(MonoBehaviour)))
+            {
+                EditorGUILayout.HelpBox("Please select a script that is derived from MonoBehaviour.", MessageType.Error);
+                prefabsWithScript.Clear();
+                return;
+            }
+        }
 
         searchInChildren = EditorGUILayout.Toggle("Search In Children", searchInChildren);
 
